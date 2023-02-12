@@ -1,0 +1,221 @@
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: #f6f6f6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #0B132A;
+}
+
+p,
+a,
+span,
+li {
+  color: #4F5665;
+}
+
+.s-bold {
+  font-weight: 500;
+}
+
+.btn {
+  font-weight: 500;
+}
+
+.main-btn {
+  background-color: transparent;
+  color: #F53838;
+  padding: 0.5rem 2.5rem;
+  border-color: #F53838;
+}
+.main-btn:hover {
+  background-color: #F53838;
+  color: #fff;
+}
+.main-btn:focus {
+  outline: none;
+  color: #F53838;
+}
+.main-btn.active {
+  background-color: #F53838;
+  color: #fff;
+  padding: 0.6rem 2.5rem;
+  border-color: #F53838;
+  box-shadow: rgba(245, 56, 56, 0.2352941176) 0px 20px 25px -5px, rgba(245, 56, 56, 0.2549019608) 0px 10px 10px -5px;
+}
+.main-btn.active-b {
+  background-color: #F53838;
+  color: #fff;
+  padding: 0.6rem 2.5rem;
+  border-color: #F53838;
+  box-shadow: none;
+}
+.main-btn:hover {
+  background-color: #F53838;
+  color: #fff;
+}
+
+.btn.active, .btn.show, .btn:first-child:active, :not(.btn-check) + .btn:active {
+  border-color: transparent;
+}
+
+.pricing .box .main-btn {
+  border: 2px solid;
+}
+
+.circle {
+  color: #DDDDDD;
+}
+.circle.active {
+  color: #F53838;
+}
+
+.facebook {
+  background-color: #fff;
+  color: #1877F2;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  border: 1px solid #EEEFF2;
+}
+
+.twitter {
+  background-color: #fff;
+  color: #1DA1F2;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  border: 1px solid #EEEFF2;
+}
+
+.instagram {
+  background-color: #fff;
+  color: #E4405F;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  border: 1px solid #EEEFF2;
+}
+
+.sub-sin button,
+.sub-sin a {
+  width: 100%;
+}
+
+.navbar .nav-item .nav-link {
+  color: #4F5665;
+}
+.navbar .nav-item .nav-link.active, .navbar .nav-item .nav-link:focus, .navbar .nav-item .nav-link:hover {
+  color: #0B132A;
+  font-weight: 500;
+}
+.navbar .navbar-toggler {
+  color: #0B132A;
+  font-size: 2rem;
+  border-color: #0B132A;
+}
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar .navbar-toggler[aria-expanded=true] {
+  border-color: #F53838;
+}
+
+.icon {
+  background-color: #FFECEC;
+  color: #F53838;
+}
+.icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.users .container {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  background-color: #fff;
+}
+.users .box:not(:last-of-type) {
+  border-right: 1px solid #DDDDDD;
+}
+
+.check {
+  color: #2FAB73;
+  padding-right: 0.5rem;
+}
+
+.pricing .box {
+  background-color: #fff;
+  height: 48rem;
+  height: 100%;
+  border: 2.2px solid #DDDDDD;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.pricing .box.active {
+  border-color: #F53838;
+}
+.pricing .box li {
+  font-size: 14px;
+}
+
+.comments h5 {
+  font-size: 16px;
+}
+.comments .box {
+  height: 14rem;
+  height: 100%;
+  border: 2.2px solid #DDDDDD;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.comments .box.active {
+  border-color: #F53838;
+}
+.comments .box p {
+  font-size: 14px;
+}
+.comments .box img {
+  width: 3.8rem;
+  height: 3.8rem;
+  border: 0.6px solid #DDDDDD;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.comments .box .fa-star {
+  color: #FEA250;
+}
+
+.card-footer {
+  background-color: transparent;
+  border: none;
+}
+
+footer ul svg {
+  width: 20px;
+  height: 20px;
+}
+
+footer {
+  position: relative;
+}
+
+.subscribe .container {
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  margin-bottom: -60px;
+  background-color: #fff;
+}
+
+footer ul svg {
+  width: 20px;
+  height: 20px;
+}/*# sourceMappingURL=style.css.map */

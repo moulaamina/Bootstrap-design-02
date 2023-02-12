@@ -1,0 +1,84 @@
+.btn{
+    font-weight: 500;
+}
+
+.main-btn{
+    background-color: transparent;
+    color: $red;
+    padding: 0.5rem 2.5rem;
+    border-color: $red;
+    &:hover{
+        background-color: $red;
+        color: $white;
+    }
+    &:focus{
+        outline: none;
+        color: $red;
+    }
+    &.active{
+        background-color: $red;
+        color: #fff;
+        padding: 0.6rem 2.5rem;
+        border-color: $red;
+        box-shadow: $btn-shadow;
+    }
+    &.active-b{
+        background-color: $red;
+        color: #fff;
+        padding: 0.6rem 2.5rem;
+        border-color: $red;
+        box-shadow: none;
+    }
+    &:hover{
+        background-color: $red;
+        color: $white;
+    }
+}
+
+
+.btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    border-color: transparent;
+}
+
+
+.pricing{
+    .box{
+        .main-btn{
+            border:2px solid;
+        }
+    }
+}
+
+.circle{
+    color: $border;
+    &.active{
+        color: $red;
+    }
+}
+
+.facebook{
+    background-color: $white;
+    color: $facebook;
+    box-shadow: $box-shadow;
+    border: 1px solid $border-color;
+}
+.twitter{
+    background-color: $white;
+    color: $twitter;
+    box-shadow: $box-shadow;
+    border: 1px solid $border-color;
+}
+
+.instagram{
+    background-color: $white;
+    color: $instagram;
+    box-shadow: $box-shadow;
+    border: 1px solid $border-color;
+}
+
+.sub-sin{
+    button,
+    a{
+    width: 100%;
+}
+}

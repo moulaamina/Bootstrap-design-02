@@ -1,0 +1,23 @@
+body{
+    font-family: 'Rubik', sans-serif;
+    background-color: $white-bc;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5{
+    color: $blue;
+}
+
+p,
+a,
+span,
+li{
+    color: $grey;
+}
+
+.s-bold{
+    font-weight: 500;
+}

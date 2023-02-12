@@ -1,0 +1,27 @@
+.navbar {
+    .nav-item {
+        .nav-link {
+            color: $grey;
+            &.active,
+            &:focus,
+            &:hover {
+                color: $blue;
+                font-weight: 500;
+            }
+        }
+    }
+
+    .navbar-toggler{
+        color: $blue;
+        font-size: 2rem;
+        border-color: $blue;
+
+        &:focus{
+            box-shadow: none;
+        }
+        &[aria-expanded="true"]{
+            border-color: $red;
+        }
+    }
+}
+

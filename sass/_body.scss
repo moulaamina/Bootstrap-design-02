@@ -1,0 +1,103 @@
+.icon {
+    background-color: $pink;
+    color: $red;
+
+    svg {
+        width: 20px;
+        height: 20px;
+    }
+
+}
+
+.users {
+    .container {
+        box-shadow: $box-shadow;
+        background-color: $white;
+    }
+
+    .box:not(:last-of-type) {
+        border-right: 1px solid $border;
+    }
+}
+
+.check {
+    color: $green;
+    padding-right: 0.5rem;
+}
+
+.pricing {
+    .box {
+        background-color: $white;
+        height: 48rem;
+        height: 100%;
+        border: 2.2px solid $border;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    
+        &.active {
+            border-color: $red;
+        }
+    
+        li {
+            font-size: 14px;
+        }
+    }
+}
+
+
+.comments{
+    h5{
+        font-size: 16px;
+    }
+    .box{
+        height: 14rem;
+        height: 100%;
+        border: 2.2px solid $border;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+
+        &.active {
+            border-color: $red;
+        }
+
+        p{
+            font-size: 14px;
+        }
+        img{
+            width: 3.8rem;
+            height: 3.8rem;
+            border: 0.6px solid $border;
+            box-shadow: $box-shadow;
+        }
+        .fa-star{
+            color: $golden;
+        }
+    }
+}
+
+.card-footer {
+    background-color: transparent;
+    border: none;
+}
+
+.subscribe {
+
+    .container {
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+        box-shadow: $box-shadow;
+        margin-bottom: -60px;
+        background-color: $white;
+    }
+}
